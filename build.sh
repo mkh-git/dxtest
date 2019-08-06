@@ -1,2 +1,3 @@
 #!/bin/#!/usr/bin/env bash
-go build -o test.go
+rm -f bin/dxtest
+go build -o bin/dxtest
