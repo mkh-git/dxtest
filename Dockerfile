@@ -1,4 +1,4 @@
-FROM nginx:1.12.8
+FROM nginx:1.12.2
 WORKDIR /app
 COPY ["./test.go"," ."]
 EXPOSE 8089
