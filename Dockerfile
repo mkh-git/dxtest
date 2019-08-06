@@ -1,5 +1,5 @@
 FROM nginx:1.12.2
-WORKDIR /app
+WORKDIR /dxtest
 COPY ["./test.go"," ."]
 COPY ["./build.sh"," ."]
 EXPOSE 8089
